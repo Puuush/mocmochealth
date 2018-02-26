@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/start/start",
+    "pages/index/index",
+    "pages/goods-details/index",
+    "pages/shop-cart/index",
+    "pages/to-pay-order/index",
+    "pages/select-address/index",
+    "pages/address-add/index",
+    "pages/order-list/index",
+    "pages/order-details/index",
+    "pages/wuliu/index",
+    "pages/mycoupons/index",
+    "pages/my/index",
+    "pages/notice/show",
+    "pages/recharge/index",
+    "pages/withdraw/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F0F8FF",
+    "navigationBarTitleText": "摩丝健康小屋",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1E90FF",
+    "borderStyle": "white",
+    "backgroundColor": "#F0F8FF",
+    "box-shadow":"0 0 6px 0",
+    "list": [{
+     "pagePath": "pages/index/index",
+      "iconPath": "images/nav/icons8-home-81.png",
+      "selectedIconPath": "images/nav/icons8-home-81-selected.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/shop-cart/index",
+      "iconPath": "images/nav/icons8-shopping-cart-81.png",
+      "selectedIconPath": "images/nav/icons8-shopping-cart-81-selected.png",
+      "text": "购物车"
+    },
+    {
+      "pagePath": "pages/my/index",
+      "iconPath": "images/nav/icons8-user-81.png",
+      "selectedIconPath": "images/nav/icons8-user-81-selected.png",
+      "text": "我的"
+    }]
+  }
+}
